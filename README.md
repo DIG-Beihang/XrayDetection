@@ -1,25 +1,12 @@
 <div align="right">
-  English | <a href="https://github.com/Charmve/Surface-Defect-Detection/blob/master/ReadmeChinese.md">简体中文</a>
+  English | <a href="https://github.com/DIG-Beihang/XrayDetection/blob/master/readme_chinese.md">简体中文</a>
 </div>
 
-# Surface Defect Detection: Dataset & Papers <sup>📌</sup>
-<a href="https://github.com/Charmve"><img src="https://img.shields.io/badge/GitHub-@Charmve-000000.svg?logo=GitHub" alt="GitHub" target="_blank"></a>
-<a href="https://charmve.github.io/computer-vision-in-action/" target="_blank"><img src="https://img.shields.io/badge/电子书-简体中文-000000.svg?style=flat-square&amp;logo=GitBook" alt="Computer Vision in Action"></a>
-[![License](https://img.shields.io/github/license/Charmve/Surface-Defect-Detection)](LICENSE)
-[![Forks](https://img.shields.io/github/forks/Charmve/Surface-Defect-Detection?style=social)](https://github.com/Charmve/Surface-Defect-Detection/edit/master/README.md)
-[![Stars](https://img.shields.io/github/stars/Charmve/Surface-Defect-Detection?style=social)](https://github.com/Charmve/Surface-Defect-Detection/edit/master/README.md)
+# Object Detection Under X-ray Security Inspection Scenario: Dataset & Papers <sup>📌</sup>
 
-<p>📈 Constantly summarizing open source dataset and critical papers in the field of surface defect research which are of great importance.
-Important critical papers from year 2017 have been collected and compiled, which can be viewed in the <a href="https://github.com/Charmve/Surface-Defect-Detection/tree/master/Papers">:open_file_folder: [<b><i>Papers</i></b>]</a> folder. 🐋 </p>
 
-<div align=center><img src="metal_surface.png"></div>
-<br>
+<p>📈 This is the summary web of open source dataset and critical papers for Object Detection under X-ray security inspection scenario done by the research group in the State Key Laboratory of Software Development Environment (SKLSDE) at Beihang University. We hope our work can contribute to the community and encourage more researchers to continue to work in this field.
 
-<p align="center">
-  Dataset download: <code><img height="20" src="https://user-images.githubusercontent.com/29084184/126463073-90077dff-fb7a-42d3-af6b-63c357d6db9f.png" alt="Google Drive" title="Google Drive"></code> <a href="https://drive.google.com/drive/folders/1q7lirc_yQBXxUSECwX1UvV1TS4eioFm8">Google Drive</a>
-   | 
-  <code><img height="20" src="https://user-images.githubusercontent.com/29084184/127970991-fcb23d68-8369-47af-918a-fef8f0becccd.png" alt="Baidu Cloud" title="Baidu Cloud"></code> <a href="https://pan.baidu.com/s/1GWQ_acTF5BnJgpJRSw8BKA">百度云盘</a>  <code>o7p5</code>
-</p>
 
 ## Introduction
 
