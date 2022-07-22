@@ -10,66 +10,25 @@
 
 ## Introduction
 
-<p>At present, surface defect equipment based on machine vision has widely replaced artificial visual inspection in various industrial fields, including 3C, automobiles, home appliances, machinery manufacturing, semiconductors and electronics, chemical, pharmaceutical, aerospace, light industry and other industries. Traditional surface defect detection methods based on machine vision often use conventional image processing algorithms or artificially designed features plus classifiers. Generally speaking, imaging schemes are usually designed by using the different properties of the inspected surface or defects. A reasonable imaging scheme helps to obtain images with uniform illumination and clearly reflect the surface defects of the object. In recent years, many defect detection methods based on deep learning have also been widely used in various industrial scenarios.</p>
-
-<p>Compared with the clear classification, detection and segmentation tasks in computer vision, the requirements for defect detection are very general. In fact, its requirements can be divided into three different levels: "what is the defect" (<strong>classification</strong>), "where is the defect" (<strong>positioning</strong>) and "How many defects are" (<strong>split</strong>).</p>
+This is the summary web of open source dataset and critical papers for Object Detection under X-ray security inspection scenario done by the research group in the State Key Laboratory of Software Development Environment (SKLSDE) at Beihang University. We hope our work can contribute to the community and encourage more researchers to continue to work in this field.
 
 # Table of Contents
 
 - [Introduction](#introduction)
-- [Key Issues](#1-key-issues-in-surface-defect-detection)
-  - [Small Sample Problem](#1small-sample-problem)
-  - [Real-time Problem](#2real-time-problem)
-- [Common Datasets](#2-common-datasets-for-industrial-surface-defect-detection)
+
+- [Datasets](#1-released-datasets-for-xray-object-detection)
   - [Steel Surface: NEU-CLS](#1steel-surface-neu-cls)
   - [Kaggle - Severstal: Steel Defect Detection](#kaggle---severstal-steel-defect-detection)
   - [Solar Panels: elpv-dataset](#2solar-panels-elpv-dataset)
   - [Metal Surface: KolektorSDD](#3metal-surface-kolektorsdd)
-  - [PCB Inspection: DeepPCB](#4pcb-inspection-deeppcb)
-  - [Fabric Defects Dataset: AITEX](#5fabric-defects-dataset-aitex)
-  - [Fabric Defect Dataset (Tianchi)](#6fabric-defect-dataset-tianchi)
-  - [Aluminium Profile Surface Defect Dataset（Tianchi）](#7aluminium-profile-surface-defect-datasettianchi)
-  - [Weakly Supervised Learning for Industrial Optical Inspection（DAGM 2007）](#8weakly-supervised-learning-for-industrial-optical-inspectiondagm-2007)
-  - [Cracks on the Surface of Construction](#9cracks-on-the-surface-of-the-construction)
-  - [Magnetic Tile Dataset](#10magnetic-tile-dataset)
-  - [RSDDs: Rail Surface Defect Datasets](#11rsdds-rail-surface-defect-datasets)
-  - [Kylberg Texture Dataset v.1.0](#12kylberg-texture-dataset-v10)
-  - [Repeat the Background Texture Dataset: KTH-TIPS](#13KTH-TIPS-database)
-  - [Escalator Step Defect Dataset](#14Escalator-Step-Defect-Dataset) 
-  - [Transmission Line Insulator Dataset](#15Transmission-Line-Insulator-Dataset)
-  - [MVTEC ITODD](#16MVTEC-ITODD)
-  - [BSData](#17bsdata---dataset-for-instance-segmentation-and-industrial-wear-forecasting)
-- [More Inventory](#3-more-inventory-of-the-best-data-set-sources)
-- [Papers](#4-surface-defect-detection-papers)
-- [Acknowledgements](#acknowledgements)
-- [Download](#download)
-- [Notification](#notification)
-- [Community](#-community)
 
+- [Papers](#1-key-issues-in-surface-defect-detection)
+  - [Small Sample Problem](#1small-sample-problem)
+  - [Real-time Problem](#2real-time-problem)
+  
 
-## 1. Key Issues in Surface Defect Detection
+## 1. Released Datasets for Xray Object Detection
 
-### 1）Small Sample Problem
-
-<p>The current deep learning methods are widely used in various computer vision tasks, and surface defect detection is generally regarded as its specific application in the industrial field. In traditional understanding, the reason why deep learning methods cannot be directly applied to surface defect detection is because in a real industrial environment, there are too few industrial defect samples that can be provided.</p>
-
-<p>Compared with the more than 14 million sample data in the ImageNet dataset, the most critical problem faced in surface defect detection is <b>small sample problem</b>. In many real industrial scenarios, there are even only a few or dozens of defective images. In fact, for the small sample problem which is one of the key problems in industrial surface defect detection, there are currently 4 different solutions:</p>
-
-
-<b>- Data Amplification and Generation</b>
-<p> The most commonly used defect image expansion method is to use multiple image processing operations such as mirroring, rotation, translation, distortion, filtering, and contrast adjustment on the original defect samples to obtain more samples. Another more common method is data synthesis, where individual defects are often fused and superimposed on normal (non-defective) samples to form defective samples.</p>
-
-<b>- Network Pre-training and Transfer Learning</b>
-<p>Generally speaking, using small samples to train deep learning networks can easily lead to <strong>overfitting</strong>, so methods based on pre-training networks or transfer learning are currently one of the most commonly used methods for samples.</p>
-
-
-<b>- Reasonable Network Structure Design</b>
-<p>The need for samples can also be greatly reduced by designing a reasonable network structure. Based on the compressed sampling theorem to compress and expand small sample data, we use CNN to directly classify the compressed sampling data features. Compared with the original image input, compressing the input can greatly reduce the network's demand for samples. In addition, the surface defect detection method based on the twin network can also be regarded as a special network design, which can greatly reduce the sample requirement.</p>
-
-
-<b>- Unsupervised or Semi-supervised Method</b>
-
-In the unsupervised model, only normal samples are used for training, so there is no need for defective samples. The semi-supervised method can use unlabeled samples to solve the network training problem in the case of small samples.
 
 👆 [<b>BACK to Table of Contents</b> -->](#table-of-contents)
 
