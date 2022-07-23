@@ -29,7 +29,7 @@ Occluded Prohibited Items X-ray(OPIXray) is the first high-quality object detect
 
 The backgrounds of all samples in OPIXray are scanned by the security inspection machine and each prohibited item is annotated manually by professional inspectors from the international airport, which localized by a box-level annotation with a bounding box. 
 
-* Download Link: https://github.com/OPIXray-author/OPIXray
+* Download Link: Please download the <a href="https://github.com/DIG-Beihang/XrayDetection/blob/master/Commitment.pdf">commitment.pdf</a> and sign the commitment letter. Then contact us to get download link. 
 
 OPIXray dataset consists of:
 
