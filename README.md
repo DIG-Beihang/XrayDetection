@@ -190,3 +190,10 @@ and forces the model to precisely enhance the weak features of specific objects 
 
 <div align=center><img src="https://github.com/DIG-Beihang/XrayDetection/blob/main/Imgs/wen.jpg"></div>
 👆 [<b>BACK to Table of Contents</b> -->](#table-of-contents)
+
+## Organizers
+<div align=center><img src="./Imgs/PersonalPhotos/xlliu.jpg" width="300"><img src="./Imgs/PersonalPhotos/rstao.png" width="300"><img src="./Imgs/PersonalPhotos/yqma.jpg" width="300"/></div>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Xiangong Liu**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Renshuai Tao**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Yuqing Ma**
+
+<div align=center><strong>Xiangong Liu                                              Renshuai Tao             Yuqing Ma</strong></div>
