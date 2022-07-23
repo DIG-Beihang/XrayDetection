@@ -69,7 +69,8 @@ HiXray dataset consists of:
 * All images are stored in JPG format with a 1200*900 resolution,  resolution, averagely. 
 * The maximum resolution of samples can reach 2000*1040
 
-<div align=center><img src="https://github.com/DIG-Beihang/XrayDetection/blob/main/Imgs/hi.png"></div>
+<div align=center><img src=".Imgs/hi.png"></div>
+
 The dataset is partitioned into a training set and a testing set, where the ratio is about 4 : 1.
 👆 [<b>BACK to Table of Contents</b> -->](#table-of-contents)
 
