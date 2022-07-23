@@ -42,9 +42,10 @@ OPIXray dataset consists of:
   - Multi-tool Knife：2042 images
 
 * All images are stored in JPG format with the resolution of 1225*954. 
-
+![opi.1](Imgs/opi1.png)
 
 The dataset is partitioned into a training set and a testing set, with the former containing 80% of the images (7109) and the latter containing 20% (1776), where the ratio is about 4 : 1. In order to study the impact brought by object occlusion levels, the testing set was divided into three subsets named as Occlusion Level 1 (OL1), Occlusion Level 2 (OL2) and Occlusion Level 3 (OL3), where the number indicates occlusion level of prohibited items in images. 
+![opi.2](Imgs/opi2.png)
 
 👆 [<b>BACK to Table of Contents</b> -->](#table-of-contents)
 ### 2）HiXray: High-quality X-ray
@@ -68,7 +69,7 @@ HiXray dataset consists of:
 * All images are stored in JPG format with a 1200*900 resolution,  resolution, averagely. 
 * The maximum resolution of samples can reach 2000*1040
 
-
+![hi](Imgs/hi.png)
 The dataset is partitioned into a training set and a testing set, where the ratio is about 4 : 1.
 👆 [<b>BACK to Table of Contents</b> -->](#table-of-contents)
 
