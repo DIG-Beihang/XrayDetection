@@ -47,6 +47,8 @@ OPIXray dataset consists of:
 The dataset is partitioned into a training set and a testing set, with the former containing 80% of the images (7109) and the latter containing 20% (1776), where the ratio is about 4 : 1. In order to study the impact brought by object occlusion levels, the testing set was divided into three subsets named as Occlusion Level 1 (OL1), Occlusion Level 2 (OL2) and Occlusion Level 3 (OL3), where the number indicates occlusion level of prohibited items in images. 
 <div align=center><img src="https://github.com/DIG-Beihang/XrayDetection/blob/main/Imgs/opi2.png"></div>
 
+#### Related Work
+
 👆 [<b>BACK to Table of Contents</b> -->](#table-of-contents)
 ### 2）HiXray: High-quality X-ray
 HiXray is a large high-quality dataset for prohibited items detection in X-ray images, which is gathered from real-world daily security inspections in an international airport. Each instance is manually annotated by professional inspectors from the international airport, guaranteeing the accurate annotations.
