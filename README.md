@@ -70,12 +70,12 @@ HiXray dataset consists of:
 * 8 categories of 102,928 common prohibited items:
   - Portable Charger 1 (PO1): 12421 prohibited items
   - Portable Charger 2 (PO2): 7788 prohibited items
-  - Water(WA): 3092 prohibited items
-  - Laptop(LA): 10042 prohibited items
-  - Mobile phone(MP): 53835 prohibited items
-  - Tablet(TA): 4918 prohibited items
-  - Cosmetic(CO): 9949 prohibited items
-  - Nonmetallic Lighter(NL): 883 prohibited items
+  - Water (WA): 3092 prohibited items
+  - Laptop (LA): 10042 prohibited items
+  - Mobile phone (MP): 53835 prohibited items
+  - Tablet (TA): 4918 prohibited items
+  - Cosmetic (CO): 9949 prohibited items
+  - Nonmetallic Lighter (NL): 883 prohibited items
 
 * All images are stored in JPG format with a 1200*900 resolution,  resolution, averagely. 
 * The maximum resolution of samples can reach 2000*1040
@@ -118,27 +118,27 @@ X-ray FSOD dataset consists of:
   - **OPIXray**:
   - Folding (FO): 12421 prohibited items
   - Straight (PO2): 7788 prohibited items
-  - Scissor(WA): 3092 prohibited items
-  - Utility(LA): 10042 prohibited items
-  - Multi-tool(MP): 53835 prohibited items
+  - Scissor (WA): 3092 prohibited items
+  - Utility (LA): 10042 prohibited items
+  - Multi-tool (MP): 53835 prohibited items
   - **HiXray**:
-  - Laptop(TA): 4918 prohibited items
-  - Lighter(CO): 9949 prohibited items
-  - Charger1(NL): 883 prohibited items
-  - Charger2(NL): 883 prohibited items
-  - Phone(NL): 883 prohibited items
+  - Laptop (TA): 4918 prohibited items
+  - Lighter (CO): 9949 prohibited items
+  - Charger1 (NL): 883 prohibited items
+  - Charger2 (NL): 883 prohibited items
+  - Phone (NL): 883 prohibited items
   - **EDS**:
-  - Plastic Bottle(NL): 883 prohibited items
-  - Glass Bottle(NL): 883 prohibited items
-  - Pressure(NL): 883 prohibited items
-  - Umbrella(NL): 883 prohibited items
+  - Plastic Bottle (NL): 883 prohibited items
+  - Glass Bottle (NL): 883 prohibited items
+  - Pressure (NL): 883 prohibited items
+  - Umbrella (NL): 883 prohibited items
   - **New**:
-  - Battery(NL): 883 prohibited items
-  - Iron Shoe(NL): 883 prohibited items
-  - Metal Can(NL): 883 prohibited items
-  - Metal Cup(NL): 883 prohibited items
-  - Nail Clipper(NL): 883 prohibited items
-  - Alcohol(NL): 883 prohibited items
+  - Battery (NL): 883 prohibited items
+  - Iron Shoe (NL): 883 prohibited items
+  - Metal Can (NL): 883 prohibited items
+  - Metal Cup (NL): 883 prohibited items
+  - Nail Clipper (NL): 883 prohibited items
+  - Alcohol (NL): 883 prohibited items
 <div align=center><img src="./Imgs/fsod.png"></div>
 
 The researchers exploit the X-ray security inspection machine and randomly put the objects in pre-prepared package to generate images. For other objects in the luggage, The researchers aim to simulate the real-world traveling luggage by putting some common items e.g., clothes, shoes. After sending the package to the security inspection machine, the machine will completely cut out the package by detecting the blank.
