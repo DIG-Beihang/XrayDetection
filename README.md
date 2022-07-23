@@ -41,7 +41,7 @@ The dataset is partitioned into a training set and a testing set, with the forme
 
 #### Related Work: <a href="https://dl.acm.org/doi/10.1145/3394171.3413828"><papertitle>Occluded Prohibited Items Detection: An X-ray Security Inspection Benchmark and De-occlusion Attention Module</papertitle></a>
 * Paper: https://arxiv.org/pdf/2004.08656.pdf
-* Code: https://github.com/OPIXray-author/OPIXray
+* Code: https://github.com/DIG-Beihang/OPIXray
 
 Security inspection often deals with a piece of baggage or suitcase where objects are heavily overlapped with each other, resulting in an unsatisfactory performance for prohibited items detection in X-ray images. In the literature, there have been rare studies and datasets touching this important topic. In this work, we contribute
 the first high-quality object detection dataset for security inspection, named Occluded Prohibited Items X-ray (OPIXray) image benchmark. OPIXray focused on the widely-occurred prohibited item "cutter", annotated manually by professional inspectors from the international airport. The test set is further divided into three occlusion levels to better understand the performance of detectors. Furthermore, to deal with the occlusion in X-ray images detection, we propose the De-occlusion Attention Module (DOAM), a plug-and-play module that can be easily inserted into and thus promote most popular detectors. Despite the heavy occlusion in X-ray imaging,
