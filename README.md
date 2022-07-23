@@ -1,8 +1,6 @@
 # Object Detection Under X-ray Security Inspection Scenario: Dataset & Papers <sup>📌</sup>
 
-## Introduction
-
-This is the summary web of open source dataset and critical papers for Object Detection under X-ray security inspection scenario done by the research group in the State Key Laboratory of Software Development Environment (SKLSDE) at Beihang University. We hope our work can contribute to the community and encourage more researchers to continue to work in this field.
+This is the summary web of open source datasets and critical papers for Object Detection under X-ray security inspection scenario done by the research group in the State Key Laboratory of Software Development Environment (SKLSDE) at Beihang University. **The datasets can only be used for ACADEMIC PURPOSES. NO COMERCIAL USE is allowed**. We hope our work can contribute to the community and encourage more researchers to continue to work in this field.
 
 # Table of Contents
 
@@ -13,6 +11,15 @@ This is the summary web of open source dataset and critical papers for Object De
   - [HiXray](#2hixray-high-quality-x-ray)
   - [EDS](#3eds-endogenous-domain-shift)
   - [Xray FSOD](#4x-ray-fsod)
+
+- [Papers](#2-critical-papers-for-xray-object-detection)
+  - [OPIXray](#1opixray-occluded-prohibited-items-x-ray)
+  - [HiXray](#2hixray-high-quality-x-ray)
+  - [EDS](#3eds-endogenous-domain-shift)
+  - [Xray FSOD](#4x-ray-fsod)
+
+## Introduction
+
 
 ## 1. Released Datasets for Xray Object Detection
 
@@ -103,13 +110,6 @@ EDS dataset consists of:
 
 Three X-ray security inspection machines from different manufactures and with different serving time are exploited to generate three domains of images. We randomly put the objects in preprepared package to generate images. After sending the package to the security inspection machine, the machine will completely cut out the package by detecting the blank.
 
-#### Related Work: <a href="https://arxiv.org/abs/2108.09917"><papertitle>Exploring Endogenous Shift for Cross-domain Detection: A Large-scale Benchmark and Perturbation Suppression Network</papertitle></a>
-* Paper: https://arxiv.org/pdf/2108.09917.pdf
-* Code: https://github.com/DIG-Beihang/PSN
-
-Existing cross-domain detection methods mostly study the domain shifts where differences between domains are often caused by external environment and perceivable for humans. However, in real-world scenarios (e.g., MRI medical diagnosis, X-ray security inspection), there still exists another type of shift, named endogenous shift, where the differences between domains are mainly caused by the intrinsic factors (e.g., imaging mechanisms, hardware components, etc.), and usually inconspicuous. This shift can also severely harm the cross-domain detection performance but has been rarely studied. To support this study, we contribute the first Endogenous Domain Shift (EDS) benchmark, X-ray security inspection, where the endogenous shifts among the domains are mainly caused by different X-ray machine types with different hardware parameters, wear degrees, etc. EDS consists of 14,219 images including 31,654 common instances from three domains (X-ray machines), with bounding-box annotations from 10 categories. To handle the endogenous shift, we further introduce the Perturbation Suppression Network (PSN), motivated by the fact that this shift is mainly caused by two types of perturbations: category-dependent and category-independent ones. PSN respectively exploits local prototype alignment and global adversarial learning mechanism to suppress these two types of perturbations. The comprehensive evaluation results show that PSN outperforms SOTA methods, serving a new perspective to the cross-domain research community.
-
-<div align=center><img src="https://github.com/DIG-Beihang/XrayDetection/blob/main/Imgs/psn.jpg"></div>
 
 👆 [<b>BACK to Table of Contents</b> -->](#table-of-contents)
 
@@ -162,4 +162,14 @@ and forces the model to precisely enhance the weak features of specific objects 
 
 👆 [<b>BACK to Table of Contents</b> -->](#table-of-contents)
 
+## 2. Critical Papers for Xray Object Detection
 
+
+
+### 3）<a href="https://arxiv.org/abs/2108.09917"><papertitle>Exploring Endogenous Shift for Cross-domain Detection: A Large-scale Benchmark and Perturbation Suppression Network</papertitle></a>
+* Paper: https://arxiv.org/pdf/2108.09917.pdf
+* Code: https://github.com/DIG-Beihang/PSN
+
+Existing cross-domain detection methods mostly study the domain shifts where differences between domains are often caused by external environment and perceivable for humans. However, in real-world scenarios (e.g., MRI medical diagnosis, X-ray security inspection), there still exists another type of shift, named endogenous shift, where the differences between domains are mainly caused by the intrinsic factors (e.g., imaging mechanisms, hardware components, etc.), and usually inconspicuous. This shift can also severely harm the cross-domain detection performance but has been rarely studied. To support this study, we contribute the first Endogenous Domain Shift (EDS) benchmark, X-ray security inspection, where the endogenous shifts among the domains are mainly caused by different X-ray machine types with different hardware parameters, wear degrees, etc. EDS consists of 14,219 images including 31,654 common instances from three domains (X-ray machines), with bounding-box annotations from 10 categories. To handle the endogenous shift, we further introduce the Perturbation Suppression Network (PSN), motivated by the fact that this shift is mainly caused by two types of perturbations: category-dependent and category-independent ones. PSN respectively exploits local prototype alignment and global adversarial learning mechanism to suppress these two types of perturbations. The comprehensive evaluation results show that PSN outperforms SOTA methods, serving a new perspective to the cross-domain research community.
+
+<div align=center><img src="https://github.com/DIG-Beihang/XrayDetection/blob/main/Imgs/psn.jpg"></div>
