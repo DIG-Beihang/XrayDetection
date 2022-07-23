@@ -1,12 +1,4 @@
-<div align="right">
-  English | <a href="https://github.com/DIG-Beihang/XrayDetection/blob/master/readme_chinese.md">简体中文</a>
-</div>
-
 # Object Detection Under X-ray Security Inspection Scenario: Dataset & Papers <sup>📌</sup>
-
-
-<p>📈 This is the summary web of open source dataset and critical papers for Object Detection under X-ray security inspection scenario done by the research group in the State Key Laboratory of Software Development Environment (SKLSDE) at Beihang University. We hope our work can contribute to the community and encourage more researchers to continue to work in this field.
-
 
 ## Introduction
 
