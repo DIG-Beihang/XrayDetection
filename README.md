@@ -23,13 +23,15 @@ This is the summary web of open source datasets and critical papers for Object D
 ## Introduction
 
 ## News
-[2022.03.02] One paper for cross-domain object detection is accepted by CVPR 2022.
+**[2022.06.29]** One [paper](#4few-shot-x-ray-prohibited-item-detection-a-benchmark-and-weak-feature-enhancement-network) for Few-shot X-ray Detection is accepted by ACM MM 2022.
 
-[2021.12.19] We hold the "Prohibited Items Detection Under X-ray Security Inspection Scenario" Forum on the 4th Chinese Conference on Pattern Recognition and Computer Vision
+**[2022.03.02]** One [paper](#3exploring-endogenous-shift-for-cross-domain-detection-a-large-scale-benchmark-and-perturbation-suppression-network) for cross-domain object detection is accepted by CVPR 2022.
 
-[2021.07.23] One paper for object detection is accepted by ICCV 2021.
+**[2021.12.19]** We hold the "Prohibited Items Detection Under X-ray Security Inspection Scenario" Forum on the 4th Chinese Conference on Pattern Recognition and Computer Vision
 
-[2020.07.26] One oral paper for De-occlusion X-ray Detection is accepted by ACM MM 2020.
+**[2021.07.23]** One [paper](#2towards-real-world-x-ray-security-inspection-a-high-quality-benchmark-and-lateral-inhibition-module-for-prohibited-items-detection) for object detection is accepted by ICCV 2021.
+
+**[2020.07.26]** One [oral paper](#1occluded-prohibited-items-detection-an-x-ray-security-inspection-benchmark-and-de-occlusion-attention-module) for De-occlusion X-ray Detection is accepted by ACM MM 2020.
 
 ## 1. Released Datasets for Xray Object Detection
 
