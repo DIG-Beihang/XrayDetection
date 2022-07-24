@@ -168,6 +168,7 @@ Prohibited items detection in X-ray images often plays an important role in prot
 these items by ignoring irrelevant information and focusing on identifiable characteristics, especially when objects are overlapped with each other. Specifically, LIM, the elaborately designed flexible additional module, suppresses the noisy information flowing maximumly by the Bidirectional Propagation (BP) module and activates the most identifiable charismatic, boundary, from four directions by Boundary Activation (BA) module. We evaluate our method extensively on HiXray and OPIXray and the results demonstrate that it outperforms SOTA detection methods.
 
 <div align=center><img src="https://github.com/DIG-Beihang/XrayDetection/blob/main/Imgs/LIM.jpg"></div>
+
 👆 [<b>BACK to Table of Contents</b> -->](#table-of-contents)
 
 ### 3）<a href="https://arxiv.org/abs/2108.09917"><papertitle>Exploring Endogenous Shift for Cross-domain Detection: A Large-scale Benchmark and Perturbation Suppression Network</papertitle></a>
@@ -178,8 +179,8 @@ these items by ignoring irrelevant information and focusing on identifiable char
 Existing cross-domain detection methods mostly study the domain shifts where differences between domains are often caused by external environment and perceivable for humans. However, in real-world scenarios (e.g., MRI medical diagnosis, X-ray security inspection), there still exists another type of shift, named endogenous shift, where the differences between domains are mainly caused by the intrinsic factors (e.g., imaging mechanisms, hardware components, etc.), and usually inconspicuous. This shift can also severely harm the cross-domain detection performance but has been rarely studied. To support this study, we contribute the first Endogenous Domain Shift (EDS) benchmark, X-ray security inspection, where the endogenous shifts among the domains are mainly caused by different X-ray machine types with different hardware parameters, wear degrees, etc. EDS consists of 14,219 images including 31,654 common instances from three domains (X-ray machines), with bounding-box annotations from 10 categories. To handle the endogenous shift, we further introduce the Perturbation Suppression Network (PSN), motivated by the fact that this shift is mainly caused by two types of perturbations: category-dependent and category-independent ones. PSN respectively exploits local prototype alignment and global adversarial learning mechanism to suppress these two types of perturbations. The comprehensive evaluation results show that PSN outperforms SOTA methods, serving a new perspective to the cross-domain research community.
 
 <div align=center><img src="https://github.com/DIG-Beihang/XrayDetection/blob/main/Imgs/psn.jpg"></div>
-👆 [<b>BACK to Table of Contents</b> -->](#table-of-contents)
 
+👆 [<b>BACK to Table of Contents</b> -->](#table-of-contents)
 ### 4）<papertitle>Few-shot X-ray Prohibited Item Detection: A Benchmark and Weak-feature Enhancement Network</papertitle>
 * Paper: Coming soon
 * Code: https://github.com/wytbwytb/WEN
@@ -189,6 +190,7 @@ X-ray prohibited items detection of security inspection plays an important role 
 and forces the model to precisely enhance the weak features of specific objects through the basis information. This mechanism is also effective in traditional FSOD tasks. Extensive experiments on X-ray FSOD and Pascal VOC datasets demonstrate that WEN outperforms other baselines in both X-ray and common scenarios
 
 <div align=center><img src="https://github.com/DIG-Beihang/XrayDetection/blob/main/Imgs/wen.jpg"></div>
+
 👆 [<b>BACK to Table of Contents</b> -->](#table-of-contents)
 
 ## Organizers
