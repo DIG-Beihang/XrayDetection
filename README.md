@@ -192,8 +192,4 @@ and forces the model to precisely enhance the weak features of specific objects 
 👆 [<b>BACK to Table of Contents</b> -->](#table-of-contents)
 
 ## Organizers
-<div align=center><img src="./Imgs/PersonalPhotos/xlliu.jpg" width="300"><img src="./Imgs/PersonalPhotos/rstao.png" width="300"><img src="./Imgs/PersonalPhotos/yqma.jpg" width="300"/></div>
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Xiangong Liu**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Renshuai Tao**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Yuqing Ma**
-
-<div align=center><strong>Xiangong Liu                                              Renshuai Tao             Yuqing Ma</strong></div>
+<div align=center><img src="./Imgs/PersonalPhotos/xlliu_n.jpg" width="250"><img src="./Imgs/PersonalPhotos/rstao_n.jpg" width="250"><img src="./Imgs/PersonalPhotos/yqma_n.jpg" width="250"/></div>
