@@ -5,6 +5,7 @@ This is the summary web of open source datasets and critical papers for Object D
 ## Table of Contents
 
 - [Introduction](#introduction)
+- X-ray security inspection machines have been widely used in traffic safety scenes such as airports and customs. With the rapid development of society, the requirements for the speed and accuracy of security inspection are becoming higher and higher. However, the traditional X-ray image judgment has always depended on manual work, with low quality and efficiency, long time-consuming, heavy workload, high requirements for the experience of the cartographer, and unable to effectively identify the contraband in the X-ray image, and the problem of missing inspection occurs. These problems require the use of automatic object detection algorithm in X-ray security detection to improve the detection and response time of human operators. This project aims at different scenarios and builds different evaluation benchmarks, which professionally provide support for relevant researchers' further exploration in this field.
 
 - [News](#news)
 
