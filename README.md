@@ -193,3 +193,5 @@ and forces the model to precisely enhance the weak features of specific objects 
 
 ## Organizers
 <div align=center><img src="./Imgs/PersonalPhotos/xlliu_n.jpg" width="250"><img src="./Imgs/PersonalPhotos/rstao_n.jpg" width="250"><img src="./Imgs/PersonalPhotos/yqma_n.jpg" width="250"/></div>
+
+<div align=center><img src="./Imgs/PersonalPhotos/tbwang_n.jpg" width="250"><img src="./Imgs/PersonalPhotos/xwzhao_n.jpg" width="250"></div>
