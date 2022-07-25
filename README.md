@@ -6,9 +6,6 @@ This is the summary web of open source datasets and critical papers for Object D
 
 - [Introduction](#introduction)
 
-X-ray security inspection machines have been widely used in traffic safety scenes such as airports and customs. With the rapid development of society, the requirements for the speed and accuracy of security inspection are becoming higher and higher. However, the traditional X-ray image judgment has always depended on manual work, with low quality and efficiency, long time-consuming, high requirements for the experience of the cartographer, and the problem of missing inspection occurs. These problems require the use of automatic object detection algorithm in X-ray security detection to improve the detection and response time of human operators. 
-
-This project aims at different scenarios of the "contraband detection under X-ray", such as lack of sample content, more scene changes. We describe the details of different evaluation benchmarks, and introduce the studies have been carried out to address the above challenges, which professionally provide support for relevant researchers' further exploration in this field.
 
 - [News](#news)
 
@@ -26,6 +23,9 @@ This project aims at different scenarios of the "contraband detection under X-ra
 
 - [Organizers](#organizers)
 ## Introduction
+X-ray security inspection machines have been widely used in traffic safety scenes such as airports and customs. With the rapid development of society, the requirements for the speed and accuracy of security inspection are becoming higher and higher. However, the traditional X-ray image judgment has always depended on manual work, with low quality and efficiency, long time-consuming, high requirements for the experience of the cartographer, and the problem of missing inspection occurs. These problems require the use of automatic object detection algorithm in X-ray security detection to improve the detection and response time of human operators. 
+
+This project aims at different scenarios of the "contraband detection under X-ray", such as lack of sample content, more scene changes. We describe the details of different evaluation benchmarks, and introduce the studies have been carried out to address the above challenges, which professionally provide support for relevant researchers' further exploration in this field.
 
 ## News
 **[2022.06.29]** One [paper](#4few-shot-x-ray-prohibited-item-detection-a-benchmark-and-weak-feature-enhancement-network) for Few-shot X-ray Detection is accepted by ACM MM 2022.
