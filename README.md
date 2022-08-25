@@ -46,7 +46,8 @@ Occluded Prohibited Items X-ray(OPIXray) is the first high-quality object detect
 The backgrounds of all samples in OPIXray are scanned by the security inspection machine and each prohibited item is annotated manually by professional inspectors from the international airport, which localized by a box-level annotation with a bounding box. 
 #### 💥💥💥Download Link💥💥💥
 * If you want to access the dataset, please read the instructions in this <a href="https://github.com/DIG-Beihang/XrayDetection/tree/main/commitments">folder</a> carefully, sign the corresponding commitment file and send it to buaa_xraydetection@163.com. After receiving your request, we will rely with the download link soon.
-💥💥💥Notice that requests with unsatisfactory information will not be accepted.
+💥💥💥Notice that **requests with unsatisfactory information will not be accepted.**
+
 OPIXray dataset consists of:
 
 * Altogether 8885 X-ray images
@@ -69,7 +70,7 @@ HiXray is a large high-quality dataset for prohibited items detection in X-ray i
 
 #### 💥💥💥Download Link💥💥💥
 * If you want to access the dataset, please read the instructions in this <a href="https://github.com/DIG-Beihang/XrayDetection/tree/main/commitments">folder</a> carefully, sign the corresponding commitment file and send it to buaa_xraydetection@163.com. After receiving your request, we will rely with the download link soon.
-💥💥💥Notice that requests with unsatisfactory information will not be accepted.
+💥💥💥Notice that **requests with unsatisfactory information will not be accepted.**
 
 HiXray dataset consists of:
 
@@ -98,7 +99,7 @@ Endogenous Domain Shift (EDS) dataset is the first endogenous domain shift bench
 
 #### 💥💥💥Download Link💥💥💥
 * If you want to access the dataset, please read the instructions in this <a href="https://github.com/DIG-Beihang/XrayDetection/tree/main/commitments">folder</a> carefully, sign the corresponding commitment file and send it to buaa_xraydetection@163.com. After receiving your request, we will rely with the download link soon.
-💥💥💥Notice that requests with unsatisfactory information will not be accepted.
+💥💥💥Notice that **requests with unsatisfactory information will not be accepted.**
 
 EDS dataset consists of:
 
@@ -119,7 +120,7 @@ X-ray FSOD dataset is the first weak-feature FSOD evaluation benchmark by select
 
 #### 💥💥💥Download Link💥💥💥
 * If you want to access the dataset, please read the instructions in this <a href="https://github.com/DIG-Beihang/XrayDetection/tree/main/commitments">folder</a> carefully, sign the corresponding commitment file and send it to buaa_xraydetection@163.com. After receiving your request, we will rely with the download link soon.
-💥💥💥Notice that requests with unsatisfactory information will not be accepted.
+💥💥💥Notice that **requests with unsatisfactory information will not be accepted.**
 
 X-ray FSOD dataset consists of:
 
