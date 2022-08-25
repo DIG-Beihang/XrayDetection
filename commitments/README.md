@@ -3,7 +3,7 @@ Before signing the commitment file, please read the Instructions carefully and p
 
 ### Institution
 * This space requires you to provide information about the institution where your research team is located. 
-* Eg: Beihang University
+* Eg: Beihang University, China
 
 ### Team
 * This space requires you to provide information about the name of your research team, or the name of your team's laboratory. 
