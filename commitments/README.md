@@ -14,7 +14,7 @@ Before signing the commitment file, please read the Instructions carefully and p
 * Eg: https://github.com/DIG-Beihang/XrayDetection & https://rstao95.github.io/
 
 ### Email
-* This space requires you to provide the **institutional email address** of your team leader or instructor. Institutinal emails include academic ones, such as name@leeds.ac.uk, shcool emails such as name@buaa.edu.cn and corporate ones, but not personal ones such as name@qq.com, name@163.com or name@123.com.
+* This space requires you to provide the **institutional email address** of your team leader or instructor. Institutional emails include academic ones, such as name@leeds.ac.uk, school emails such as name@buaa.edu.cn and corporate ones, but not personal ones such as name@qq.com, name@163.com or name@123.com.
 * Eg:tianbowang@buaa.edu.cn
 
 ### Team Leader Signature
