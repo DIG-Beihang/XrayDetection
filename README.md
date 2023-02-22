@@ -14,12 +14,14 @@ This is the summary web of open source datasets and critical papers for Object D
   - [HiXray](#hixray-high-quality-x-ray)
   - [EDS](#eds-endogenous-domain-shift)
   - [Xray FSOD](#x-ray-fsod)
+  - [XAD](#xad-physical-x-ray-attack-dataset)
 
 - [Critical Papers for Xray Object Detection](#critical-papers-for-xray-object-detection)
   - [DOAM](#occluded-prohibited-items-detection-an-x-ray-security-inspection-benchmark-and-de-occlusion-attention-module)
   - [LIM](#towards-real-world-x-ray-security-inspection-a-high-quality-benchmark-and-lateral-inhibition-module-for-prohibited-items-detection)
   - [PSN](#exploring-endogenous-shift-for-cross-domain-detection-a-large-scale-benchmark-and-perturbation-suppression-network)
   - [WEN](#few-shot-x-ray-prohibited-item-detection-a-benchmark-and-weak-feature-enhancement-network)
+  - [X-adv](#x-adv-physical-adversarial-object-attacks-against-x-ray-prohibited-item-detection)
 
 - [Organizers](#organizers)
 ## Introduction
@@ -28,6 +30,8 @@ X-ray security inspection machines have been widely used in traffic safety scene
 This project aims at different scenarios of the "contraband detection under X-ray", such as lack of sample content, more scene changes. We describe the details of different evaluation benchmarks, and introduce the studies have been carried out to address the above challenges, which professionally provide support for relevant researchers' further exploration in this field.
 
 ## News
+**[2023.02.21]** One [paper](#x-adv-physical-adversarial-object-attacks-against-x-ray-prohibited-item-detection) for physical adversarial attack against X-ray detection is accepted by USENIX Security 2023.
+
 **[2022.06.29]** One [paper](#4few-shot-x-ray-prohibited-item-detection-a-benchmark-and-weak-feature-enhancement-network) for Few-shot X-ray Detection is accepted by ACM MM 2022.
 
 **[2022.03.02]** One [paper](#3exploring-endogenous-shift-for-cross-domain-detection-a-large-scale-benchmark-and-perturbation-suppression-network) for cross-domain object detection is accepted by CVPR 2022.
@@ -156,6 +160,32 @@ The researchers exploit the X-ray security inspection machine and randomly put t
 
 👆 [<b>BACK to Table of Contents</b> -->](#table-of-contents)
 
+### XAD: Physical X-ray Attack Dataset
+HiXray is a large high-quality dataset for prohibited items detection in X-ray images, which is gathered from real-world daily security inspections in an international airport. Each instance is manually annotated by professional inspectors from the international airport, guaranteeing the accurate annotations.
+
+XAD is a physical-world X-ray inspection security robustnes evaluation dataset, which is collected from an advanced X-ray security machine. XAD has 4 categories of prohibited items, and its test set has 4 different severity level of adversarial objects. The researchers propose this dataset in order to promote the design of robust X-ray prohibited item detectors.
+
+#### 💥💥💥Download Link💥💥💥
+* If you want to access the dataset, please read the instructions in this <a href="https://github.com/DIG-Beihang/XrayDetection/tree/main/commitments">folder</a> carefully, sign the corresponding commitment file and send it to buaa_xraydetection@163.com. After receiving your request, we will rely with the download link soon.
+💥💥💥Notice that **requests with unsatisfactory information will not be accepted.**
+
+XAD dataset consists of:
+
+* Altogether 5587 X-ray images
+* 4 categories of 5684 common prohibited items:
+  - Scissor: 2002 prohibited items
+  - Folding knife: 1354 prohibited items
+  - Straight Knife: 1352 prohibited items
+  - Utility knife: 976 prohibited items
+
+* All images in test set are stored with a 900*500 resolution. 
+
+<div align=center><img src="./Imgs/xad.png"></div>
+
+The dataset is partitioned into a training set and a testing set, where the training set has 4537 images, and the test set has 210 clean images and 4 different severity level of adversarial images generated from those clean images.
+
+👆 [<b>BACK to Table of Contents</b> -->](#table-of-contents)
+
 ## Critical Papers for Xray Object Detection
 
 ### <a href="https://dl.acm.org/doi/10.1145/3394171.3413828"><papertitle>Occluded Prohibited Items Detection: An X-ray Security Inspection Benchmark and De-occlusion Attention Module</papertitle></a>
@@ -201,6 +231,17 @@ X-ray prohibited items detection of security inspection plays an important role 
 and forces the model to precisely enhance the weak features of specific objects through the basis information. This mechanism is also effective in traditional FSOD tasks. Extensive experiments on X-ray FSOD and Pascal VOC datasets demonstrate that WEN outperforms other baselines in both X-ray and common scenarios
 
 <div align=center><img src="https://github.com/DIG-Beihang/XrayDetection/blob/main/Imgs/wen.jpg"></div>
+
+👆 [<b>BACK to Table of Contents</b> -->](#table-of-contents)
+
+### <papertitle>X-Adv: Physical Adversarial Object Attacks against X-ray Prohibited Item Detection</papertitle>
+* Paper: https://arxiv.org/pdf/2302.09491.pdf
+* Code: https://github.com/DIG-Beihang/X-adv
+* Dataset: [XAD](#xad-physical-x-ray-attack-dataset)
+
+Adversarial attacks are valuable for evaluating the robustness of deep learning models. Existing attacks are primarily conducted on the visible light spectrum (e.g., pixel-wise texture perturbation). However, attacks targeting texture-free X-ray images remain underexplored, despite the widespread application of X-ray imaging in safety-critical scenarios such as the X-ray detection of prohibited items. In this paper, we take the first step toward the study of adversarial attacks targeted at X-ray prohibited item detection, and reveal the serious threats posed by such attacks in this safety-critical scenario. Specifically, we posit that successful physical adversarial attacks in this scenario should be specially designed to circumvent the challenges posed by color/texture fading and complex overlapping. To this end, we propose X-Adv to generate physically printable metals that act as an adversarial agent capable of deceiving X-ray detectors when placed in luggage. To resolve the issues associated with color/texture fading, we develop a differentiable converter that facilitates the generation of 3D-printable objects with adversarial shapes, using the gradients of a surrogate model rather than directly generating adversarial textures. To place the printed 3D adversarial objects in luggage with complex overlapped instances, we design a policy-based reinforcement learning strategy to find locations eliciting strong attack performance in worst-case scenarios whereby the prohibited items are heavily occluded by other items. To verify the effectiveness of the proposed X-Adv, we conduct extensive experiments in both the digital and the physical world (employing a commercial X-ray security inspection system for the latter case). Furthermore, we present the physical-world X-ray adversarial attack dataset XAD. We hope this paper will draw more attention to the potential threats targeting safetycritical scenarios.
+
+<div align=center><img src="./Imgs/xadv.png"></div>
 
 👆 [<b>BACK to Table of Contents</b> -->](#table-of-contents)
 
