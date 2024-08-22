@@ -212,8 +212,8 @@ these items by ignoring irrelevant information and focusing on identifiable char
 
 👆 [<b>BACK to Table of Contents</b> -->](#table-of-contents)
 
-### <a href="https://arxiv.org/abs/2108.09917"><papertitle>Exploring Endogenous Shift for Cross-domain Detection: A Large-scale Benchmark and Perturbation Suppression Network</papertitle></a>
-* Paper: https://arxiv.org/pdf/2108.09917.pdf
+### <a href="[https://arxiv.org/abs/2108.09917](https://openaccess.thecvf.com/content/CVPR2022/html/Tao_Exploring_Endogenous_Shift_for_Cross-Domain_Detection_A_Large-Scale_Benchmark_and_CVPR_2022_paper.html)"><papertitle>Exploring Endogenous Shift for Cross-domain Detection: A Large-scale Benchmark and Perturbation Suppression Network</papertitle></a>
+* Paper: https://openaccess.thecvf.com/content/CVPR2022/papers/Tao_Exploring_Endogenous_Shift_for_Cross-Domain_Detection_A_Large-Scale_Benchmark_and_CVPR_2022_paper.pdf
 * Code: https://github.com/DIG-Beihang/PSN
 * Dataset: [EDS](#eds-endogenous-domain-shift)
 
