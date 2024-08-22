@@ -212,7 +212,7 @@ these items by ignoring irrelevant information and focusing on identifiable char
 
 👆 [<b>BACK to Table of Contents</b> -->](#table-of-contents)
 
-### <a href="[https://arxiv.org/abs/2108.09917](https://openaccess.thecvf.com/content/CVPR2022/html/Tao_Exploring_Endogenous_Shift_for_Cross-Domain_Detection_A_Large-Scale_Benchmark_and_CVPR_2022_paper.html)"><papertitle>Exploring Endogenous Shift for Cross-domain Detection: A Large-scale Benchmark and Perturbation Suppression Network</papertitle></a>
+### <a href="https://openaccess.thecvf.com/content/CVPR2022/html/Tao_Exploring_Endogenous_Shift_for_Cross-Domain_Detection_A_Large-Scale_Benchmark_and_CVPR_2022_paper.html"><papertitle>Exploring Endogenous Shift for Cross-domain Detection: A Large-scale Benchmark and Perturbation Suppression Network</papertitle></a>
 * Paper: https://openaccess.thecvf.com/content/CVPR2022/papers/Tao_Exploring_Endogenous_Shift_for_Cross-Domain_Detection_A_Large-Scale_Benchmark_and_CVPR_2022_paper.pdf
 * Code: https://github.com/DIG-Beihang/PSN
 * Dataset: [EDS](#eds-endogenous-domain-shift)
@@ -222,8 +222,8 @@ Existing cross-domain detection methods mostly study the domain shifts where dif
 <div align=center><img src="https://github.com/DIG-Beihang/XrayDetection/blob/main/Imgs/psn.jpg"></div>
 
 👆 [<b>BACK to Table of Contents</b> -->](#table-of-contents)
-### <papertitle>Few-shot X-ray Prohibited Item Detection: A Benchmark and Weak-feature Enhancement Network</papertitle>
-* Paper: Coming soon
+### <a href="https://dl.acm.org/doi/abs/10.1145/3503161.3548075"><papertitle>Few-shot X-ray Prohibited Item Detection: A Benchmark and Weak-feature Enhancement Network</papertitle></a>
+* Paper: https://dl.acm.org/doi/abs/10.1145/3503161.3548075
 * Code: https://github.com/wytbwytb/WEN
 * Dataset: [Xray FSOD](#x-ray-fsod)
 
