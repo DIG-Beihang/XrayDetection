@@ -15,6 +15,7 @@ This is the summary web of open source datasets and critical papers for Object D
   - [EDS](#eds-endogenous-domain-shift)
   - [Xray FSOD](#x-ray-fsod)
   - [XAD](#xad-physical-x-ray-attack-dataset)
+  - [ROXray](#)
 
 - [Critical Papers for Xray Object Detection](#critical-papers-for-xray-object-detection)
   - [DOAM](#occluded-prohibited-items-detection-an-x-ray-security-inspection-benchmark-and-de-occlusion-attention-module)
@@ -183,6 +184,27 @@ XAD dataset consists of:
 <div align=center><img src="./Imgs/xad.png"></div>
 
 The dataset is partitioned into a training set and a testing set, where the training set has 4537 images, and the test set has 210 clean images and 4 different severity level of adversarial images generated from those clean images.
+
+### ORXray: ORiented X-ray prohibited detection benchmark
+we contribute the first comprehensive benchmark for ORiented prohibited detection in X-ray inspection scenarios (ORXray), characterizing large-scale prohibited items, high-quality images, informative annotations and real-world scenarios. Specifically, ORXray consists of 10,933 images with 59,490 instances of 10 common categories. The images sourced from ORXray originate from real-world security inspections at airports and subway stations to capture the challenges encountered in practical scenarios. Apart from horizontal annotations, oriented annotations, which offer generic representations for prohibited items are also provided to promote practical and universal detection of prohibited items. We hope ORXray could serve as a comprehensive benchmark to facilitate further research and benefit real-world automated security inspection..
+
+#### 💥💥💥Download Link💥💥💥
+* If you want to access the dataset, please read the instructions in this <a href="https://github.com/DIG-Beihang/XrayDetection/tree/main/commitments">folder</a> carefully, sign the corresponding commitment file and send it to buaa_xraydetection@163.com. After receiving your request, we will rely with the download link soon.
+💥💥💥Notice that **requests with unsatisfactory information will not be accepted.**
+
+* The categories are listed as follows
+  - “Battery”
+  - “Electronic Equipments”
+  - “Glass Bottle”
+  - “Gun”
+  - “Knife”
+  - “Lighter”
+  - “Metal Bottle”
+  - “Plastic Bottle”
+  - “Pressure”
+  - “Umbrella”. 
+
+<div align=center><img src="https://github.com/DIG-Beihang/XrayDetection/blob/main/Imgs/roxray.png"></div>
 
 👆 [<b>BACK to Table of Contents</b> -->](#table-of-contents)
 
