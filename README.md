@@ -22,6 +22,7 @@ This is the summary web of open source datasets and critical papers for Object D
   - [PSN](#exploring-endogenous-shift-for-cross-domain-detection-a-large-scale-benchmark-and-perturbation-suppression-network)
   - [WEN](#few-shot-x-ray-prohibited-item-detection-a-benchmark-and-weak-feature-enhancement-network)
   - [X-adv](#x-adv-physical-adversarial-object-attacks-against-x-ray-prohibited-item-detection)
+  - []
 
 - [Organizers](#organizers)
 ## Introduction
@@ -265,6 +266,18 @@ Adversarial attacks are valuable for evaluating the robustness of deep learning 
 <div align=center><img src="./Imgs/xadv.png"></div>
 
 👆 [<b>BACK to Table of Contents</b> -->](#table-of-contents)
+
+### <papertitle>X-Adv: Physical Adversarial Object Attacks against X-ray Prohibited Item Detection</papertitle>
+* Paper: https://link.springer.com/article/10.1007/s11432-024-4732-x
+* Code: https://github.com/wytbwytb/SWEAR
+* Dataset: [ORXray](#orxray-oriented-x-ray-prohibited-detection-benchmark)
+
+The increasing traffic pressure and growing demand for public safety have spurred research into intelligent X-ray prohibited item detection. However, these studies concentrate on horizontal bounding boxes, failing to effectively suppress interference from excessive background or neighboring items when dealing with prohibited items in various orientations. In addition to the lack of X-ray benchmarks for oriented prohibited item detection, traditional oriented detection methods also experience a significant performance drop when applied to X-ray scenarios. Existing oriented detection methods primarily address the planar rotation on rigid surfaces, while X-rays passing through passenger luggage to visualize internal structures exhibit both planar and stereoscopic rotation phenomena. The challenging stereoscopic rotation will cause increasing intra-class diversity and severe appearance deformation, thereby aggravating the difficulty of prohibited item detection. In this paper, we contribute the first oriented X-ray prohibited detection benchmark ORXray, featuring large-scale prohibited items, high-quality images, informative annotations, and real-world scenarios. Moreover, we first delve into the differences in appearance deformation between planar rotation and stereoscopic rotation, and propose the stereoscopic-aware oriented feature calibration (SWEAR) framework, integrating the novel stereoscopic perception guidance (SPG) module and progressive deformation calibration (PDC) module. To address the increasing intra-class diversity, SPG first augments stereoscopic rotation semantics and empowers the network with stereoscopic perception ability. Based on the perceived stereoscopic semantics, PDC further progressively calibrates the distorted features to restore the visual characteristics that are vanished by stereoscopic rotation. Comprehensive experiments demonstrate that SWEAR outperforms other state-of-the-art methods by a margin of at least 2.7%, highlighting its effectiveness.
+
+<div align=center><img src="./Imgs/swear.png"></div>
+
+👆 [<b>BACK to Table of Contents</b> -->](#table-of-contents)
+
 
 ## Organizers
 <div align=center><img src="./Imgs/PersonalPhotos/xlliu_n.jpg" width="250"><img src="./Imgs/PersonalPhotos/rstao_n.jpg" width="250"><img src="./Imgs/PersonalPhotos/yqma_n.jpg" width="250"/></div>
