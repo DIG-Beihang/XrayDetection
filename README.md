@@ -22,7 +22,7 @@ This is the summary web of open source datasets and critical papers for Object D
   - [PSN](#exploring-endogenous-shift-for-cross-domain-detection-a-large-scale-benchmark-and-perturbation-suppression-network)
   - [WEN](#few-shot-x-ray-prohibited-item-detection-a-benchmark-and-weak-feature-enhancement-network)
   - [X-adv](#x-adv-physical-adversarial-object-attacks-against-x-ray-prohibited-item-detection)
-  - []
+  - [SWEAR](#towards-universal-x-ray-security-inspection-a-benchmark-and-stereoscopic-aware-oriented-prohibited-item-detection-framework)
 
 - [Organizers](#organizers)
 ## Introduction
@@ -267,7 +267,7 @@ Adversarial attacks are valuable for evaluating the robustness of deep learning 
 
 👆 [<b>BACK to Table of Contents</b> -->](#table-of-contents)
 
-### <papertitle>X-Adv: Physical Adversarial Object Attacks against X-ray Prohibited Item Detection</papertitle>
+### <papertitle>Towards universal X-ray security inspection: a benchmark and stereoscopic-aware oriented prohibited item detection framework</papertitle>
 * Paper: https://link.springer.com/article/10.1007/s11432-024-4732-x
 * Code: https://github.com/wytbwytb/SWEAR
 * Dataset: [ORXray](#orxray-oriented-x-ray-prohibited-detection-benchmark)
